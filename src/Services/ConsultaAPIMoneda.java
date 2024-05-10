@@ -1,5 +1,6 @@
 package Services;
 
+import Modelos.ApiK;
 import Modelos.Conversor;
 import com.google.gson.Gson;
 
@@ -8,9 +9,9 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class ConsultaAPIMoneda {
+public class ConsultaAPIMoneda implements ApiK {
     public Conversor buscaMoneda(String denominacionBase){
-        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/b567e9d7a6af531af245c9c3/latest/"+denominacionBase);
+        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/"+KEY_FINAL+"/latest/"+denominacionBase);
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(direccion)

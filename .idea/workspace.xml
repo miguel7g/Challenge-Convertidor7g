@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57dbdfd8-ae6c-432d-a235-3a54b31f978a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imagenes/tasa-de-cambio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelos/ApiK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/ConsultaAPIMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/ConsultaAPIMoneda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Class" />
+        <option value="Record" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
